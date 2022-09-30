@@ -1,10 +1,11 @@
 import React, { useContext } from 'react'
 import axios from 'axios'
 import { AuthContext } from '../context/AuthContext';
+import { HomePages } from '../../pages/HomePages';
 
 export const Login = () => {
 
-    const { login, logout, user: userContext, logged } = useContext(AuthContext)
+    const { login, logged } = useContext(AuthContext)
 
     const formsubmit = (e) => {
         e.preventDefault();
@@ -45,7 +46,7 @@ export const Login = () => {
 
                 if (success) {
 
-                    login( userR.firstname, access_token );
+                    login(userR.firstname, access_token);
 
                     nameID.value = '';
                     passwordID.value = '';
@@ -57,22 +58,13 @@ export const Login = () => {
 
     }
 
-    const logoutOnClick = () => {
-        logout();
-    }
+
 
     return (
         <div>
             {
                 logged ?
-                    (
-                        <div>
-                            Bienvenido {userContext?.name}
-                            <br />
-                            <br />
-                            <button onClick={logoutOnClick}>Salir</button>
-                        </div>
-                    )
+                    <HomePages />
                     :
                     (
                         <form onSubmit={formsubmit}>
