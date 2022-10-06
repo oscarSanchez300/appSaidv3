@@ -11,10 +11,13 @@ const initialState = {
 
 const init = () => {
     const user = JSON.parse(localStorage.getItem('user'));
+    const token = localStorage.getItem('token_real');
+
 
     return {
         logged: !!user,
-        user: user
+        user: user,
+        token: token,
     }
 }
 
@@ -29,11 +32,14 @@ export const AuthProvider = ({ children }) => {
         const action = { type: types.login, payload: user, token: token }
 
         localStorage.setItem('user', JSON.stringify(user))
+        localStorage.setItem('token_real', token)
+
 
         dispatch(action)
     }
 
     const logout = () => {
+        localStorage.removeItem('token_real');
         localStorage.removeItem('user');
         const action = { type: types.logout };
         dispatch(action);

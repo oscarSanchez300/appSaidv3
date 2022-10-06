@@ -1,11 +1,16 @@
-import React, { useContext } from 'react'
-import axios from 'axios'
+import React, { useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
-import { HomePages } from '../../pages/HomePages';
+import { Navigate, useNavigate } from 'react-router-dom';
+import axios from 'axios';
+
+
+import '../../styles/tabla.css';
 
 export const Login = () => {
 
     const { login, logged } = useContext(AuthContext)
+
+    const navigate = useNavigate();
 
     const formsubmit = (e) => {
         e.preventDefault();
@@ -29,8 +34,8 @@ export const Login = () => {
         }
 
 
-        console.log(nameID.value)
-        console.log(passwordID.value)
+        // console.log(nameID.value)
+        // console.log(passwordID.value)
 
         const f = new FormData();
         f.append('email', nameID.value);
@@ -50,6 +55,10 @@ export const Login = () => {
 
                     nameID.value = '';
                     passwordID.value = '';
+
+                    navigate('/', {
+                        replace: true
+                    });
                 }
             })
             .catch(error => {
@@ -58,24 +67,32 @@ export const Login = () => {
 
     }
 
-
-
     return (
-        <div>
+        <>
             {
-                logged ?
-                    <HomePages />
-                    :
+                (logged === false)
+                    ?
                     (
-                        <form onSubmit={formsubmit}>
-                            <input type='email' name='email' id='nameID' placeholder='Usuario' />
-                            <br />
-                            <input type='password' name='password' id='passwordID' placeholder='Contraseña' />
-                            <br />
-                            <button>Entrar</button>
-                        </form>
+                        <div className='container-fluid'>
+                            <div className='row'>
+                                <div className='col-md-5'>
+                                    <p className='text-center'>Imagen Dinamica</p>
+                                </div>
+                                <div className='col-md-7 bg-azul' style={{height: '100vh'}}>
+                                    <form onSubmit={formsubmit}>
+                                        <br />
+                                        <input type='email' name='email' id='nameID' className='form-control' placeholder='Usuario' />
+                                        <input type='password' name='password' id='passwordID' className='form-control mt-4' placeholder='Contraseña' />
+                                        <button className='btn btn-outline-light btn-md rounded-pill btn-login mt-4 mb-4'>Ingresar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     )
+                    :
+                    <Navigate to="/home" />
             }
-        </div >
+        </>
+
     )
 }

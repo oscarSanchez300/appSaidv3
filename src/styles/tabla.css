@@ -1,0 +1,53 @@
+
+.btn-regresar,
+.btn-descargar {
+    border: 2px solid #63b44d;
+    padding: 7px 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    min-width: 175px;
+    max-width: 100%;
+    font-size: 14px;
+    transition: 200ms;
+}
+
+.btn-regresar,
+.btn-descargar:hover,
+.btn-descargar:focus {
+    color: #63b44d;
+    background: #fff;
+    text-shadow: none;
+}
+
+.btn-descargar,
+.btn-regresar:hover,
+.btn-regresar:focus {
+    color: #fff;
+    text-shadow: none;
+    background: #63b44d;
+    color: #fff;
+}
+
+
+.btn-login {
+    width: 230px;
+    max-width: 100%;
+    border: 2px solid #fff;
+    transition: 150ms ease-in;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background: #1a1077fa;
+    /* background: #e3e9ec; */
+    box-shadow: none;
+    border: 2px solid #e3e9ec;
+}
+
+
+.bg-azul {
+    background: #5bc5f2;
+}
+
+

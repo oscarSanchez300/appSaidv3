@@ -1,0 +1,273 @@
+.Almacn {
+  font-family: Heebo;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  color: #000;
+}
+
+
+.AlmacnKits {
+  font-family: Heebo;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  color: #000;
+}
+
+.Da-click-donde-quieres-acceder {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #000;
+}
+
+
+.Da-click-donde-quieres-kits {
+  font-family: Heebo;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #000;
+  margin-top: 0px;
+}
+
+.Rectangle-Copy-16 {
+  width: 250px;
+  height: 190px;
+  border-radius: 20px;
+  border: solid 3px #707070;
+  background-color: #fff;
+  margin-left: 12px;
+  margin-bottom: 35px;
+}
+
+div.Rectangle-Copy-16:hover {
+  border: solid 3px lightblue;
+}
+
+.Rectangle-Copy-15 {
+  width: 200px;
+  height: 140px;
+  border-radius: 20px;
+  border: solid 3px #707070;
+  background-color: #fff;
+  margin-left: 12px;
+  margin-bottom: 35px;
+}
+
+.Rectangle-Copy-12 {
+  width: 200px;
+  height: 140px;
+  border-radius: 20px;
+  border: solid 3px #707070;
+  background-color: #fff;
+  margin-left: 2px;
+  margin-bottom: 35px;
+}
+
+div.Rectangle-Copy-15:hover {
+  border: solid 3px lightblue;
+}
+
+div.Rectangle-Copy-12:hover {
+  border: solid 3px lightblue;
+}
+
+img.img-raya:hover {
+  color: blue;
+}
+
+img.icono_consulta_de_inventario {
+  width: 62px;
+  height: 80px;
+  margin: 0 0 78px;
+  object-fit: contain;
+}
+
+.Chart-title {
+  font-family: Heebo;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.Chart-titleModule {
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.Perfiles {
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7cbe3a;
+}
+
+
+.-Nmero-de-serie {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-family: Heebo;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.perfilDeseas {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.Colonia {
+  font-family: Heebo;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: right;
+  color: #7cbe3a;
+  margin: 0;
+  padding: 0;
+}
+
+.Escribe {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-family: Heebo;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.Consulta-clientes {
+  font-family: Heebo;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+
+.Da-clickA {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Rectngulo-3105 {
+  border-radius: 20px;
+  border: solid 3px lightblue;
+  background-color: #fff;
+}
+
+.header-nav-all {
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: heebo;
+  text-decoration: none;
+}
+
+.header-nav-all:hover {
+  color: #000;
+}
+
+.header-nav-last {
+  color: #57ae40;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: heebo;
+  text-decoration: none;
+}
+
+.btn-verde {
+  border: 2px solid #63b44d;
+  padding: 7px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  min-width: 80%;
+  max-width: 80%;
+  font-size: 60%;
+  transition: 200ms;
+  background-color: #fff;
+  color: #63b44d;
+}
+
+
+.btn-verde:hover,
+.btn-verde:focus {
+    color: #63b44d;
+    background: #fff;
+    text-shadow: none;
+}
+
+.btn-verde:hover,
+.btn-verde:focus {
+    color: #fff;
+    text-shadow: none;
+    background: #63b44d;
+    color: #fff;
+}
