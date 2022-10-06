@@ -76,14 +76,14 @@ export const Login = () => {
                         <div className='container-fluid'>
                             <div className='row'>
                                 <div className='col-md-5'>
-                                    <p className='text-center'>Imagen Dinamica!</p>
+                                    <p className='text-center'>Imagen Dinamicaaaaaaaaaa!</p>
                                 </div>
                                 <div className='col-md-7 bg-azul' style={{height: '100vh'}}>
                                     <form onSubmit={formsubmit}>
                                         <br />
                                         <input type='email' name='email' id='nameID' className='form-control' placeholder='Usuario' />
                                         <input type='password' name='password' id='passwordID' className='form-control mt-4' placeholder='Contraseña' />
-                                        <button className='btn btn-outline-light btn-md rounded-pill btn-login mt-4 mb-4'>Ingresar</button>
+                                        <button className='btn btn-outline-light btn-md rounded-pill btn-login mt-4 mb-4'>Ingresarrrrrr</button>
                                     </form>
                                 </div>
                             </div>
