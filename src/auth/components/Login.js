@@ -76,7 +76,7 @@ export const Login = () => {
                         <div className='container-fluid'>
                             <div className='row'>
                                 <div className='col-md-5'>
-                                    <p className='text-center'>Imagen Dinamica</p>
+                                    <p className='text-center'>Imagen Dinamica!</p>
                                 </div>
                                 <div className='col-md-7 bg-azul' style={{height: '100vh'}}>
                                     <form onSubmit={formsubmit}>
