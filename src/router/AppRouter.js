@@ -8,7 +8,7 @@ export const AppRouter = () => {
 
     
     return (
-        <div>
+        <>
             <Navbar />
             <Routes>
                 <Route path="/*" element={
@@ -18,6 +18,6 @@ export const AppRouter = () => {
                 } />
                 <Route path="login" element={<Login />} />
             </Routes>
-        </div>
+        </>
     )
 }

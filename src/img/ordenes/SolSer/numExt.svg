@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.04" height="25.55" viewBox="0 0 22.04 25.55">
+  <g id="Componente_220_3" data-name="Componente 220 – 3" transform="translate(1.414 1)">
+    <path id="Trazado_22391" data-name="Trazado 22391" d="M4,15l3.925,3.925L11.85,15" transform="translate(11.85 22.851) rotate(180)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Trazado_22392" data-name="Trazado 22392" d="M7,6V21.7" transform="translate(10.925 25.626) rotate(180)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Trazado_22393" data-name="Trazado 22393" d="M17.617,3a2.617,2.617,0,0,1,2.617,2.617V9.542a2.617,2.617,0,1,1-5.233,0V5.617A2.617,2.617,0,0,1,17.617,3Z" transform="translate(-0.608 -3)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Elipse_662" data-name="Elipse 662" cx="2.5" cy="2.5" r="2.5" transform="translate(14.625 14.55)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Trazado_22394" data-name="Trazado 22394" d="M20.079,16v3.925a2.617,2.617,0,0,1-2.617,2.617H15.5" transform="translate(-0.454 1.009)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

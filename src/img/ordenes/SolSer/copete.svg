@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Componente_267_6" data-name="Componente 267 – 6" transform="translate(1 1)">
+    <line id="Línea_1278" data-name="Línea 1278" x2="3" transform="translate(0 9)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Línea_1279" data-name="Línea 1279" y2="3" transform="translate(9)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Línea_1280" data-name="Línea 1280" x1="2.2" y1="2.2" transform="translate(2.6 2.6)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Línea_1281" data-name="Línea 1281" y1="2.2" x2="2.2" transform="translate(13.2 2.6)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Línea_1282" data-name="Línea 1282" x1="2.2" y2="2.2" transform="translate(2.6 13.2)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Trazado_22555" data-name="Trazado 22555" d="M12,12l9,3-4,2-2,4-3-9" transform="translate(-3 -3)" fill="none" stroke="#5bc5f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

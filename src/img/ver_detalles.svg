@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="17.5" viewBox="0 0 19.5 17.5">
+    <g transform="translate(.75 .75)">
+        <rect data-name="Rectángulo 3067" width="18" height="16" rx="3" style="fill:none;stroke:#63b44d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <circle data-name="Elipse 650" cx="2" cy="2" r="2" transform="translate(4 4)" style="fill:none;stroke:#63b44d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="Línea 1195" transform="translate(12 4)" style="fill:none;stroke:#63b44d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="M0 0h2"/>
+        <path data-name="Línea 1196" transform="translate(12 8)" style="fill:none;stroke:#63b44d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="M0 0h2"/>
+        <path data-name="Línea 1197" transform="translate(4 12)" style="fill:none;stroke:#63b44d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="M0 0h10"/>
+    </g>
+</svg>

@@ -7,25 +7,30 @@ export const useFetch = (url) => {
     const [state, setState] = useState({ data: null, loading: true, error: null });
 
     const { token } = useContext(AuthContext);
-    const config = {
-        headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + token
-        },
-    };
+    // const config = {
+    //     headers: {
+    //         'Content-Type': 'application/json',
+    //         'Authorization': 'Bearer ' + token
+    //     },
+    // };
 
     useEffect(() => {
-        console.log('mounted');
-        
+        console.log('mounted useFetch');
+
         return () => {
-            console.log('unmounted');
+            console.log('unmounted useFetch');
             isMounted.current = false;
         }
-    }, [config])
+    }, [])
 
     useEffect(() => {
 
-        fetch(url, config)
+        fetch(url, {
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + token
+            }
+        })
             .then(resp => resp.json())
             .then(data => {
 
@@ -49,7 +54,7 @@ export const useFetch = (url) => {
 
             })
 
-    }, [url]);
+    }, [url, token]);
 
     return state;
 
